@@ -8,213 +8,18 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=link"
-    />
-    <style>
-      :root {
-        --primary-color: #cbeeff96;
-        --secondary-color: #8d99ae;
-        --text-color: #333333;
-        --header-color: #2b2b2b;
-        --background-color: #f8f8f8;
-        --white: #ffffff;
-      }
-
-      body {
-        font-family: "Roboto", Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        line-height: 1.6;
-        background: var(--background-color);
-        color: var(--text-color);
-      }
-
-      .container {
-        max-width: 900px;
-        margin: 30px auto;
-        background: var(--white);
-        padding: 40px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-        border-radius: 8px;
-      }
-
-      h1 {
-        font-size: 32px;
-        color: var(--header-color);
-        text-align: center;
-        margin-bottom: 5px;
-        font-weight: 700;
-      }
-
-      h2 {
-        font-size: 22px;
-        color: var(--header-color);
-        border-bottom: 2px solid var(--primary-color);
-        padding-bottom: 8px;
-        margin-top: 30px;
-        margin-bottom: 15px;
-        font-weight: 700;
-      }
-
-      h3 {
-        font-size: 18px;
-        color: var(--secondary-color);
-        text-align: center;
-        margin-top: 0;
-        margin-bottom: 20px;
-        font-weight: 400;
-      }
-
-      .contact-info {
-        text-align: center;
-        margin-bottom: 30px;
-        font-size: 14px;
-      }
-
-      .contact-info p {
-        margin: 3px 0;
-      }
-
-      .contact-info a {
-        color: #003fb5;
-        text-decoration: none;
-        transition: color 0.3s ease;
-      }
-
-      .contact-info a:hover {
-        text-decoration: underline;
-      }
-
-      .section-content {
-        margin-bottom: 25px;
-      }
-
-      .sub-section {
-        margin-bottom: 20px;
-        padding-left: 10px;
-        border-left: 3px solid var(--primary-color);
-      }
-
-      .job-title {
-        font-weight: bold;
-        color: var(--header-color);
-        margin-bottom: 2px;
-        display: block;
-      }
-
-      .company-name {
-        font-style: italic;
-        color: var(--text-color);
-        margin-bottom: 2px;
-        display: block;
-      }
-
-      .dates {
-        color: var(--secondary-color);
-        font-size: 0.9em;
-        margin-bottom: 10px;
-        display: block;
-      }
-
-      ul {
-        list-style-type: disc;
-        padding-left: 25px;
-        margin-top: 5px;
-      }
-
-      ul li {
-        margin-bottom: 8px;
-      }
-
-      .skills-list {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        list-style: none;
-        padding: 0;
-        margin-top: 10px;
-      }
-
-      .skills-list li {
-        background-color: var(--primary-color);
-        color: var(--header-color);
-        padding: 4px 15px;
-        border: 1px solid #90b7ff;
-        border-radius: 5px;
-        font-size: 0.9em;
-        font-weight: 500;
-        white-space: nowrap;
-      }
-
-      .portfolio-links a {
-        display: flex;
-        margin-bottom: 5px;
-        color: #0736b7;
-        text-decoration: none;
-      }
-
-      .portfolio-links .url {
-        display: flex;
-        align-items: center;
-      }
-
-      .project-link {
-        display: inline-flex;
-        align-items: start;
-        flex-direction: column;
-        gap: 5px;
-      }
-
-      .project-description {
-        color: #2b2b2b;
-        font-size: 0.9em;
-      }
-
-      .profile-title {
-        color: #1969ff;
-      }
-
-      .tech-section {
-        margin: 2rem auto;
-        padding: 2rem;
-        background: #ffffff;
-        border-radius: 12px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-      }
-
-      .tech-section h2 {
-        font-size: 2rem;
-        margin-bottom: 1.5rem;
-        color: #222;
-        border-bottom: 2px solid #e0e0e0;
-        padding-bottom: 0.5rem;
-      }
-
-      .tech-section .section-content p {
-        font-size: 1rem;
-        line-height: 1.6;
-        color: #333;
-        margin-bottom: 1rem;
-      }
-
-      .tech-section .section-content strong {
-        display: inline-block;
-        min-width: 150px;
-        color: #1e88e5;
-      }
-    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body>
-    <div class="container">
-      <h1>Kunal Chandra Das</h1>
-      <h3 class="profile-title">
+  <body class="bg-gray-100 text-gray-800 font-[Roboto]">
+    <div class="max-w-4xl mx-auto my-8 bg-white p-10 shadow-lg rounded-lg">
+      <h1 class="text-4xl font-bold text-center text-gray-900 mb-1">
+        Kunal Chandra Das
+      </h1>
+      <h3 class="text-xl text-center text-blue-600 font-medium mb-6">
         Backoffice Coordinator | Full-Stack Web Developer
       </h3>
 
-      <!-- Contact Info Section  -->
-      <div class="contact-info">
+      <div class="text-center text-sm mb-8">
         <p>
           Chinsurah Hooghly, India 712101 | +91 9874353723 |
           kunalchandradasofficial@gmail.com
@@ -222,188 +27,215 @@
         <p>
           <strong>LinkedIn:</strong>
           <a
-            href="https://www.linkedin.com/in/kunal-chandra-das-470b"
+            href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+            class="text-blue-600 hover:underline"
             target="_blank"
-            >kunal-chandra-das-470b</a
+            >Kunal Chandra Das</a
           >
           | <strong>Website:</strong>
-          <a href="https://www.kunalchandradas.tech" target="_blank"
+          <a
+            href="https://www.kunalchandradas.tech"
+            class="text-blue-600 hover:underline"
+            target="_blank"
             >kunalchandradas.tech</a
           >
         </p>
       </div>
 
-      <!-- Professional Summary Section  -->
-      <h2>Professional Summary</h2>
-      <div class="section-content">
-        <p>
-          Detail-oriented <strong>Backoffice Coordinator</strong> at Magicmind
-          Technology Limited with robust expertise in
-          <strong>operations support</strong>,
-          <strong>team coordination</strong>, and
-          <strong>technical troubleshooting</strong>. Also a self-taught
-          <strong>Full-Stack Web Developer (MERN Stack)</strong> with hands-on
-          experience in delivering web solutions independently, from
-          <strong>database design</strong> to
-          <strong>responsive front-end development</strong>. Completed 3
-          freelance projects showcasing ability to <strong>build</strong>,
-          <strong>deploy</strong>, and
-          <strong>maintain scalable web applications</strong>. Excellent
-          multitasker bridging operations and development with efficiency.
-        </p>
-      </div>
-      <!-- Freelance Projects Section  -->
-      <h2>Freelance Projects</h2>
-      <div class="section-content portfolio-links">
-        <a href="https://snpuralab.com" target="_blank" class="project-link">
-          <span>
-            <strong class="url">
-              S.N. Pura Laboratory LLP
-              <span class="material-symbols-outlined">link</span>
-            </strong>
-            <small class="project-description">
-              Developed the official client-facing application for S.N. Pura
-              Laboratory LLP, a NABL, FSSAI, ISI, and BIS-certified testing
-              facility. The platform streamlines online test booking, order
-              tracking, report downloads, and user account management. Leveraged
-              Next.js for the frontend, integrated a secure API, and deployed on
-              a VPS with production-grade security and scalability
-              optimizations. Contributed end-to-end — from architecture design
-              to deployment and maintenance.
-            </small>
-          </span>
-        </a>
+      <h2
+        class="text-2xl font-bold text-gray-800 border-b-2 border-blue-100 pb-2 mb-4"
+      >
+        Professional Summary
+      </h2>
+      <p class="mb-8">
+        Detail-oriented <strong>Backoffice Coordinator</strong> at Magicmind
+        Technology Limited with robust expertise in
+        <strong>operations support</strong>, <strong>team coordination</strong>,
+        and <strong>technical troubleshooting</strong>. Also a self-taught
+        <strong>Full-Stack Web Developer (MERN Stack)</strong> with hands-on
+        experience in delivering web solutions independently, from
+        <strong>database design</strong> to
+        <strong>responsive front-end development</strong>. Completed 3 freelance
+        projects showcasing ability to <strong>build</strong>,
+        <strong>deploy</strong>, and
+        <strong>maintain scalable web applications</strong>. Excellent
+        multitasker bridging operations and development with efficiency.
+      </p>
 
-        <a
-          href="https://www.chinmoybhattacharya.com"
-          target="_blank"
-          class="project-link"
-        >
-          <span>
-            <strong class="url">
+      <h2
+        class="text-2xl font-bold text-gray-800 border-b-2 border-blue-100 pb-2 mb-4"
+      >
+        Freelance Projects
+      </h2>
+      <div class="space-y-6 mb-8">
+        <div>
+          <a
+            href="https://snpuralab.com"
+            target="_blank"
+            class="text-blue-700 font-semibold hover:underline flex items-center gap-1"
+          >
+            <div class="w-full inline-flex items-center gap-1">
+              S.N Pura Laboratory LLP
+              <span class="material-symbols-outlined text-sm">link</span>
+            </div>
+            <div
+              class="float-right w-full flex flex justify-end text-green-500"
+            >
+              Dec 2024 - May 2025
+            </div>
+          </a>
+          <p class="text-sm mt-1 text-gray-700">
+            Client-facing application for a NABL, FSSAI, ISI, and BIS-certified
+            testing facility • Developed the official client-facing application
+            for S.N. Pura Laboratory LLP, streamlining online test booking,
+            order tracking, and report downloads • Leveraged Next.js for the
+            frontend, integrated a secure API, and deployed on a • Contributed
+            end-to-end - from architecture design to deployment and maintenance
+          </p>
+        </div>
+        <div>
+          <a
+            href="https://www.chinmoybhattacharya.com"
+            target="_blank"
+            class="text-blue-700 font-semibold hover:underline flex items-center gap-1"
+          >
+            <div class="w-full inline-flex items-center gap-1">
               CBS Research Group
-              <span class="material-symbols-outlined">link</span>
-            </strong>
-            <small class="project-description">
-              Designed and built a custom research showcase website for CBS
-              Research Group, a prominent electrochemistry lab under the Indian
-              Institute of Engineering Science and Technology (IIEST), Shibpur.
-              The website presents research publications, lab activities, and
-              contact information in a structured, mobile-friendly format.
-              Delivered a clean UI/UX to enhance academic visibility and
-              collaboration opportunities for the lab.
-            </small>
-          </span>
-        </a>
-
-        <a href="https://canadavertex.com" target="_blank" class="project-link">
-          <span>
-            <strong class="url">
+              <span class="material-symbols-outlined text-sm">link</span>
+            </div>
+            <div
+              class="float-right w-full flex flex justify-end text-green-500"
+            >
+              June 2024 - Oct 2024
+            </div>
+          </a>
+          <p class="text-sm mt-1 text-gray-700">
+            Website for a prominent electrochemistry lab under IIEST, Shibpur •
+            Designed and built a custom research showcase website for CBS
+            Research Group • Presented research publications a n d improved
+            visibility through a clean UI/UX
+          </p>
+        </div>
+        <div>
+          <a
+            href="https://canadavertex.com"
+            target="_blank"
+            class="text-blue-700 font-semibold hover:underline flex items-center gap-1"
+          >
+            <div class="w-full inline-flex items-center gap-1">
               Canada Vertex Immigration
-              <span class="material-symbols-outlined">link</span>
-            </strong>
-            <small class="project-description">
-              Created a responsive corporate website for Canada Vertex
-              Immigration, a regulated immigration consulting firm based in
-              Edmonton, Alberta. The website highlights key services such as
-              visa consultation, permanent residency applications, and
-              immigration assessments. Emphasized clarity, trust-building
-              design, and SEO best practices to attract and retain clients
-              seeking personalized Canadian immigration services.
-            </small>
-          </span>
-        </a>
+              <span class="material-symbols-outlined text-sm">link</span>
+            </div>
+            <div
+              class="float-right w-full flex flex justify-end text-green-500"
+            >
+              Nov 2024 - Nov 2024
+            </div>
+          </a>
+          <p class="text-sm mt-1 text-gray-700">
+            Corporate website for a regulated immigration consulting firm based
+            in Edmonton, Alberta Created a responsive corporate website for
+            Canada Vertex Immigration, highlighting key services Emphasized
+            clarity and SEO best practices for enhanced client engagement
+          </p>
+        </div>
       </div>
 
-      <!-- My Skill set section -->
-      <h2>Skills</h2>
-      <ul class="skills-list">
-        <li>Web Development</li>
-        <li>Full-Stack Development</li>
-        <li>UI/UX Design</li>
-        <li>SEO</li>
-        <li>Database Design</li>
-        <li>Responsive Design</li>
-        <li>Project Management</li>
-        <li>Content Writing</li>
-        <li>Time Management</li>
-        <li>Problem Solving</li>
-        <li>Critical Thinking</li>
-        <li>Attention to Detail</li>
-        <li>Freelance Negotiation</li>
-        <li>Professionalism</li>
-        <li>Issue Research</li>
-        <li>Audit Reporting</li>
-        <li>Team Leadership</li>
-        <li>Operational Support</li>
-        <li>Process Improvement</li>
-        <li>Conflict Resolution</li>
+      <h2
+        class="text-2xl font-bold text-gray-800 border-b-2 border-blue-100 pb-2 mb-4"
+      >
+        Skills
+      </h2>
+      <ul class="flex flex-wrap gap-3 text-sm mb-8">
+        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
+          Web Development
+        </li>
+        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
+          Full-Stack Development
+        </li>
+        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
+          UI/UX Design
+        </li>
+        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">SEO</li>
+        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
+          Database Design
+        </li>
+        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
+          Responsive Design
+        </li>
+        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
+          Project Management
+        </li>
+        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
+          Team Leadership
+        </li>
+        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
+          Process Improvement
+        </li>
+        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
+          Conflict Resolution
+        </li>
       </ul>
 
-      <!-- Work experience section  -->
-      <h2>Work History</h2>
-      <div class="section-content">
-        <div class="sub-section">
-          <span class="job-title">Freelance Web Developer</span>
-          <span class="company-name"
-            >Self Employed Services, Chinsurah (Remote)</span
-          >
-          <span class="dates">May 2024 - Present</span>
-          <ul>
+      <h2
+        class="text-2xl font-bold text-gray-800 border-b-2 border-blue-100 pb-2 mb-4"
+      >
+        Work History
+      </h2>
+      <div class="space-y-6 mb-8">
+        <div>
+          <h3 class="font-semibold text-gray-900">Freelance Web Developer</h3>
+          <p class="italic text-gray-700">
+            Self Employed Services, Chinsurah (Remote)
+          </p>
+          <p class="text-sm text-gray-500 mb-2">May 2024 - Present</p>
+          <ul class="list-disc list-inside text-sm text-gray-700">
             <li>
-              Collaborated with business owners to build creative, functional
-              websites.
-            </li>
-            <li>
-              Focused on aesthetics, responsiveness, and long-term user
-              satisfaction.
+              Collaborated with business owners to build creative websites.
             </li>
             <li>
               Provided full-cycle development from planning to maintenance.
             </li>
           </ul>
         </div>
-        <div class="sub-section">
-          <span class="job-title">Backoffice Coordinator</span>
-          <span class="company-name"
-            >Magicmind Technologies Limited, Kolkata (Remote)</span
-          >
-          <span class="dates">March 2023 - Present</span>
-          <ul>
+        <div>
+          <h3 class="font-semibold text-gray-900">Backoffice Coordinator</h3>
+          <p class="italic text-gray-700">
+            Magicmind Technologies Limited, Kolkata (Remote)
+          </p>
+          <p class="text-sm text-gray-500 mb-2">March 2023 - Present</p>
+          <ul class="list-disc list-inside text-sm text-gray-700">
             <li>Managed attendance and ensured payroll accuracy.</li>
-            <li>
-              Enhanced productivity through team communication and audits.
-            </li>
             <li>Trained new employees and implemented process improvements.</li>
-            <li>
-              Handled policy updates, interpersonal issues, and procedural
-              clarity.
-            </li>
           </ul>
         </div>
       </div>
 
-      <!-- Technology i know section  -->
-      <section class="tech-section">
-        <h2>Technical Proficiency</h2>
-        <div class="section-content">
-          <p>
-            <strong>Frontend:</strong> HTML5, CSS3, JavaScript, TypeScript,
-            React.js, Next.js, Zustand, Tailwind CSS, Bootstrap
-          </p>
-          <p><strong>Backend:</strong> Node.js, Express.js</p>
-          <p><strong>Databases:</strong> MongoDB, PostgreSQL, Redis</p>
-          <p>
-            <strong>DevOps & Cloud:</strong> Docker, Nginx, GitHub, VPS, Google
-            Cloud, Ubuntu
-          </p>
-          <p><strong>Analytics:</strong> Google Analytics (GA4)</p>
-        </div>
-      </section>
+      <h2
+        class="text-2xl font-bold text-gray-800 border-b-2 border-blue-100 pb-2 mb-4"
+      >
+        Technical Proficiency
+      </h2>
+      <div class="space-y-2 mb-8">
+        <p>
+          <strong>Frontend:</strong> HTML5, CSS3, JavaScript, TypeScript,
+          React.js, Next.js, Zustand, Tailwind CSS
+        </p>
+        <p><strong>Backend:</strong> Node.js, Express.js</p>
+        <p><strong>Databases:</strong> MongoDB, PostgreSQL, Redis</p>
+        <p>
+          <strong>DevOps & Cloud:</strong> Docker, Nginx, GitHub, VPS, Google
+          Cloud, Ubuntu
+        </p>
+        <p><strong>Analytics:</strong> Google Analytics (GA4)</p>
+      </div>
 
-      <!-- My educational qualification section -->
-      <h2>Education</h2>
-      <div class="section-content">
+      <h2
+        class="text-2xl font-bold text-gray-800 border-b-2 border-blue-100 pb-2 mb-4"
+      >
+        Education
+      </h2>
+      <div class="mb-8">
         <p>
           <strong>Bachelor of Arts in Economics</strong>, Indira Gandhi National
           Open University – <em>Expected Jan 2027</em>
@@ -414,13 +246,24 @@
         </p>
       </div>
 
-      <!-- My interests section  -->
-      <h2>Interests</h2>
-      <ul class="skills-list">
-        <li>Spirituality</li>
-        <li>Indian Classical Music</li>
-        <li>Ancient Indian Scriptures</li>
-        <li>Technology</li>
+      <h2
+        class="text-2xl font-bold text-gray-800 border-b-2 border-blue-100 pb-2 mb-4"
+      >
+        Interests
+      </h2>
+      <ul class="flex flex-wrap gap-3 text-sm">
+        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
+          Spirituality
+        </li>
+        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
+          Indian Classical Music
+        </li>
+        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
+          Ancient Indian Scriptures
+        </li>
+        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
+          Technology
+        </li>
       </ul>
     </div>
   </body>
