@@ -1,269 +1,363 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kunal Chandra Das - Professional Resume</title>
+    <title>Kunal Chandra Das - Full-Stack Developer Resume</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+      }
+      @media print {
+        body {
+          background-color: white;
+        }
+        .no-print {
+          display: none;
+        }
+        .shadow-lg {
+          shadow: none;
+        }
+        .my-8 {
+          margin: 0;
+        }
+      }
+    </style>
   </head>
-  <body class="bg-gray-100 text-gray-800 font-[Roboto]">
-    <div class="max-w-4xl mx-auto my-8 bg-white p-10 shadow-lg rounded-lg">
-      <h1 class="text-4xl font-bold text-center text-gray-900 mb-1">
-        Kunal Chandra Das
-      </h1>
-      <h3 class="text-xl text-center text-blue-600 font-medium mb-6">
-        Full-Stack Web Developer | Backoffice Coordinator
-      </h3>
-
-      <div class="text-center text-sm mb-8">
-        <p>
-          Chinsurah Hooghly, India 712101 | +91 9874353723 |
-          kunalchandradasofficial@gmail.com
+  <body class="bg-slate-50 text-slate-800 antialiased">
+    <div
+      class="max-w-4xl mx-auto my-8 bg-white p-8 md:p-12 shadow-lg rounded-sm border-t-4 border-blue-600"
+    >
+      <header class="text-center border-b pb-6 mb-6">
+        <h1 class="text-4xl font-bold text-slate-900 tracking-tight">
+          Kunal Chandra Das
+        </h1>
+        <p class="text-xl text-blue-600 font-semibold mt-2">
+          Full-Stack Web Developer | MERN Specialist
         </p>
-        <p>
-          <strong>LinkedIn:</strong>
+        <p
+          class="text-sm font-medium text-slate-500 uppercase tracking-widest mt-1"
+        >
+          Self-Taught Developer
+        </p>
+        <div
+          class="mt-4 text-sm text-slate-600 flex flex-wrap justify-center gap-x-4"
+        >
+          <span>Chinsurah Hooghly, WB 712101</span>
+          <span>•</span>
+          <span>+91 9874353723</span>
+          <span>•</span>
           <a
-            href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
-            class="text-blue-600 hover:underline"
-            target="_blank"
-            >Kunal Chandra Das</a
+            href="mailto:kunalchandradasofficial@gmail.com"
+            class="hover:text-blue-600 underline decoration-blue-200"
+            >kunalchandradasofficial@gmail.com</a
           >
-          | <strong>Website:</strong>
+        </div>
+        <div class="mt-2 text-sm text-slate-600">
           <a
             href="https://www.kunalchandradas.site"
-            class="text-blue-600 hover:underline"
             target="_blank"
-            >www.kunalchandradas.site</a
+            class="font-bold hover:text-blue-600"
+            >Portfolio</a
           >
+          |
+          <a
+            href="https://www.linkedin.com/in/kunal-chandra-das-470bab218"
+            target="_blank"
+            class="font-bold hover:text-blue-600"
+            >LinkedIn</a
+          >
+          |
+          <a
+            href="https://github.com/Kunal-Ch-Das-Official"
+            target="_blank"
+            class="font-bold hover:text-blue-600"
+            >GitHub</a
+          >
+        </div>
+      </header>
+
+      <section class="mb-5">
+        <h2
+          class="text-sm font-bold uppercase tracking-wider text-slate-900 mb-2 border-l-4 border-blue-600 pl-3"
+        >
+          Professional Summary
+        </h2>
+        <p class="text-sm leading-relaxed">
+          <strong>Full-Stack Developer</strong> with
+          <strong>3+ years of real-world</strong> experience in
+          <strong>TypeScript</strong>, <strong>Next.js</strong>, and
+          <strong>Node.js</strong>. Expert in building
+          <strong>industrial workflow systems</strong> and
+          <strong>NABL-certified platforms</strong> using
+          <strong>PostgreSQL</strong>, <strong>Docker</strong>, and
+          <strong>SimpleWebAuthn</strong>.
         </p>
-      </div>
+      </section>
 
-      <h2
-        class="text-2xl font-bold text-gray-800 border-b-2 border-blue-100 pb-2 mb-4"
-      >
-        Professional Summary
-      </h2>
+      <section class="mb-8">
+        <h2
+          class="text-lg font-bold uppercase tracking-wider text-slate-900 mb-3 border-l-4 border-blue-600 pl-3"
+        >
+          Technical Proficiency
+        </h2>
+        <ul class="text-sm space-y-2 list-none">
+          <li>
+            <strong>Frontend Development:</strong> <strong>React.js</strong>,
+            <strong>Next.js 15 (App Router)</strong>,
+            <strong>TypeScript</strong>, <strong>Tailwind CSS</strong>,
+            <strong>Zustand</strong>, Redux, Responsive UI/UX Design
+          </li>
+          <li>
+            <strong>Backend & API Engineering:</strong>
+            <strong>Node.js</strong>, <strong>Express.js</strong>,
+            <strong>Prisma 7</strong>, <strong>Drizzle ORM</strong>,
+            <strong>SimpleWebAuthn (Passkeys)</strong>,
+            <strong>RESTful API Architecture</strong>
+          </li>
+          <li>
+            <strong>Database Management:</strong> <strong>PostgreSQL</strong>,
+            <strong>MongoDB</strong>, <strong>Redis</strong>, Database Schema
+            Design, Query Optimization
+          </li>
+          <li>
+            <strong>DevOps & Cloud Infrastructure:</strong>
+            <strong>Docker</strong>, <strong>Nginx Reverse Proxy</strong>,
+            <strong>GitHub Actions (CI/CD)</strong>,
+            <strong>Linux (Ubuntu) VPS Management</strong>, Google Cloud
+            Platform (GCP)
+          </li>
+          <li>
+            <strong>Technical Tools:</strong> Git, Postman,
+            <strong>Google Analytics (GA4)</strong>,
+            <strong>JWT Authentication</strong>, Secure Cookie Management
+          </li>
+        </ul>
+      </section>
 
-      <p class="mb-8">
-        Experienced <strong>Backoffice Coordinator</strong> at
-        <strong>Magicmind Technology Limited</strong> with strong skills in
-        <strong>operations</strong>, <strong>team coordination</strong>, and
-        <strong>tech troubleshooting</strong>.
-        <strong>Self-taught MERN Stack developer</strong> with
-        <strong>end-to-end web development expertise</strong>.
-        <strong>Delivered 3 freelance projects</strong>, showcasing full-cycle
-        app development and deployment.
-      </p>
+      <section class="mb-8">
+        <h2
+          class="text-lg font-bold uppercase tracking-wider text-slate-900 mb-3 border-l-4 border-blue-600 pl-3"
+        >
+          Professional Experience
+        </h2>
 
-      <h2
-        class="text-2xl font-bold text-gray-800 border-b-2 border-blue-100 pb-2 mb-4"
-      >
-        Freelance Projects
-      </h2>
-      <div class="space-y-6 mb-8">
-        <div>
-          <a
-            href="https://snpuralab.com"
-            target="_blank"
-            class="text-blue-700 font-semibold hover:underline flex items-center gap-1"
-          >
-            <div class="w-full inline-flex items-center gap-1">
-              S.N Pura Laboratory LLP
-              <span class="material-symbols-outlined text-sm">link</span>
-            </div>
-            <div
-              class="float-right w-full flex flex justify-end text-green-500"
+        <div class="mb-6">
+          <div class="flex justify-between items-baseline">
+            <h3 class="font-bold text-slate-900">
+              Full-Stack Developer & Coordinator
+            </h3>
+            <span class="text-sm font-semibold text-slate-500"
+              >Sept 2025 – April 2026</span
             >
-              Dec 2024 - May 2025
-            </div>
-          </a>
-          <p class="text-sm mt-1 text-gray-700">
-            Client-facing application for a NABL, FSSAI, ISI, and BIS-certified
-            testing facility • Developed the official client-facing application
-            for S.N. Pura Laboratory LLP, streamlining online test booking,
-            order tracking, and report downloads • Leveraged Next.js for the
-            frontend, integrated a secure API, and deployed on VPS • Contributed
-            end-to-end - from architecture design to deployment and maintenance.
+          </div>
+          <p class="italic text-blue-700 text-sm mb-2">
+            Rajesh Steel Concern, Kolkata (Full-Time)
           </p>
-        </div>
-        <div>
-          <a
-            href="https://www.chinmoybhattacharya.com"
-            target="_blank"
-            class="text-blue-700 font-semibold hover:underline flex items-center gap-1"
+          <ul
+            class="list-disc list-outside ml-5 text-sm space-y-1 text-slate-700"
           >
-            <div class="w-full inline-flex items-center gap-1">
-              CBS Research Group
-              <span class="material-symbols-outlined text-sm">link</span>
-            </div>
-            <div
-              class="float-right w-full flex flex justify-end text-green-500"
-            >
-              June 2024 - Oct 2024
-            </div>
-          </a>
-          <p class="text-sm mt-1 text-gray-700">
-            Website for a prominent electrochemistry lab under IIEST, Shibpur,
-            Designed and built a custom research showcase website for CBS
-            Research Group, Presented research publications and improved
-            visibility through a clean UI/UX. Manage students and provide group
-            news from admin panel.
-          </p>
-        </div>
-        <div>
-          <a
-            href="https://canadavertex.com"
-            target="_blank"
-            class="text-blue-700 font-semibold hover:underline flex items-center gap-1"
-          >
-            <div class="w-full inline-flex items-center gap-1">
-              Canada Vertex Immigration
-              <span class="material-symbols-outlined text-sm">link</span>
-            </div>
-            <div
-              class="float-right w-full flex flex justify-end text-green-500"
-            >
-              Nov 2024 - Nov 2024
-            </div>
-          </a>
-          <p class="text-sm mt-1 text-gray-700">
-            Corporate website for a regulated immigration consulting firm based
-            in Edmonton, Alberta. Created a responsive corporate website for
-            Canada Vertex Immigration, highlighting key services Emphasized
-            clarity and SEO best practices for enhanced client engagement
-          </p>
-        </div>
-      </div>
-
-      <h2
-        class="text-2xl font-bold text-gray-800 border-b-2 border-blue-100 pb-2 mb-4"
-      >
-        Skills
-      </h2>
-      <ul class="flex flex-wrap gap-3 text-sm mb-8">
-        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
-          Web Development
-        </li>
-        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
-          Full-Stack Development
-        </li>
-        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
-          UI/UX Design
-        </li>
-        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">SEO</li>
-        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
-          Database Design
-        </li>
-        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
-          Responsive Design
-        </li>
-        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
-          Project Management
-        </li>
-        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
-          Team Leadership
-        </li>
-        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
-          Process Improvement
-        </li>
-        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
-          Conflict Resolution
-        </li>
-      </ul>
-
-      <h2
-        class="text-2xl font-bold text-gray-800 border-b-2 border-blue-100 pb-2 mb-4"
-      >
-        Work History
-      </h2>
-      <div class="space-y-6 mb-8">
-        <div>
-          <h3 class="font-semibold text-gray-900">Freelance Web Developer</h3>
-          <p class="italic text-gray-700">
-            Self Employed Services, Chinsurah (Remote)
-          </p>
-          <p class="text-sm text-gray-500 mb-2">May 2024 - Present</p>
-          <ul class="list-disc list-inside text-sm text-gray-700">
-            I provide end-to-end solutions for business owners and developers,
-            covering website design, backend, and DevOps. My personalized
-            approach ensures functional, aesthetic, and engaging digital
-            experiences tailored to unique goals.
+            <li>
+              Designed and engineered a proprietary
+              <strong>Process Workflow Management System</strong> to digitize
+              manufacturing tracking and internal logistics.
+            </li>
+            <li>
+              Architected the complete system using the
+              <strong>MERN stack</strong>, delivering a production-ready
+              solution within a <strong>strict 6-month timeline</strong>.
+            </li>
+            <li>
+              Implemented secure administrative dashboards providing automated
+              reporting on <strong>300,000+</strong> daily data points reduced
+              manual report generation time by <strong>80%</strong> and
+              maintained <strong>99.9%</strong> system uptime.
+            </li>
+            <li>
+              Directed the digital onboarding of
+              <strong>20+</strong> administrative personnel, facilitating a
+              <strong>100% transition</strong> from legacy paper-based logs to a
+              centralized cloud system and eliminating data entry redundancy
+              across the manufacturing floor.
+            </li>
+            <li>
+              Translated complex business requirements into high-performance
+              technical specifications, leading to the delivery of a
+              <strong>production-ready ERP system</strong>
+              <strong>15% ahead</strong> of the
+              <strong>6-month deadline</strong>
+              while maintaining 100% alignment with operational goals.
+            </li>
           </ul>
         </div>
-        <div>
-          <h3 class="font-semibold text-gray-900">Backoffice Coordinator</h3>
-          <p class="italic text-gray-700">
-            Magicmind Technologies Limited, Kolkata (Hybrid)
+
+        <div class="mb-6">
+          <div class="flex justify-between items-baseline">
+            <h3 class="font-bold text-slate-900">Backoffice Coordinator</h3>
+            <span class="text-sm font-semibold text-slate-500"
+              >March 2023 – Aug 2025</span
+            >
+          </div>
+          <p class="italic text-blue-700 text-sm mb-2">
+            Magicmind Technologies Limited, Kolkata
           </p>
-          <p class="text-sm text-gray-500 mb-2">March 2023 - August 2025</p>
-          <ul class="list-disc list-inside text-sm text-gray-700">
-            Trained new employees on processes, conducted audits, maintained
-            records, and resolved operational issues while fostering a
-            productive work environment. Acted as a liaison by communicating
-            policies, coordinating schedules, mediating conflicts, and driving
-            team efficiency improvements.
+          <ul
+            class="list-disc list-outside ml-5 text-sm space-y-1 text-slate-700"
+          >
+            <li>
+              Accelerated new-hire speed-to-productivity by
+              <strong>40%</strong> through a standardized technical onboarding
+              program, ensuring <strong>100% compliance</strong> with
+              operational best practices.
+            </li>
+            <li>
+              Executed rigorous quality assurance audits on departmental
+              deliverables, reducing submission error rates by
+              <strong>95%</strong> and ensuring 100% adherence to organizational
+              quality benchmarks.
+            </li>
+            <li>
+              Facilitated cross-functional technical alignment between
+              departments, reducing project blockers by <strong>30%</strong> and
+              accelerating the deployment of systemic process improvements.
+            </li>
+            <li>
+              Managed high-integrity attendance datasets for
+              <strong>50+ employees</strong>, ensuring
+              <strong>100% payroll accuracy</strong> and eliminating payment
+              discrepancies through rigorous data reconciliation.
+            </li>
+            <li>
+              Resolved critical operational bottlenecks and process-related
+              technical hurdles, improving team uptime by
+              <strong>25%</strong> and ensuring
+              <strong>100% continuity</strong> in high-stakes workflows.
+            </li>
+            <li>
+              Identified and resolved critical workflow inefficiencies through
+              data-driven analysis,
+              <strong>delivering actionable solutions</strong> that accelerated
+              project turnaround times by <strong>15%</strong>.
+            </li>
           </ul>
         </div>
-      </div>
 
-      <h2
-        class="text-2xl font-bold text-gray-800 border-b-2 border-blue-100 pb-2 mb-4"
-      >
-        Technical Proficiency
-      </h2>
-      <div class="space-y-2 mb-8">
-        <p>
-          <strong>Frontend:</strong> HTML5, CSS3, JavaScript, TypeScript,
-          React.js, Next.js, Zustand, Tailwind CSS
-        </p>
-        <p><strong>Backend:</strong> Node.js, Express.js</p>
-        <p><strong>Databases:</strong> MongoDB, PostgreSQL, Redis</p>
-        <p>
-          <strong>DevOps & Cloud:</strong> Docker, Nginx, GitHub, VPS, Google
-          Cloud, Ubuntu
-        </p>
-        <p><strong>Analytics:</strong> Google Analytics (GA4)</p>
-      </div>
+        <div>
+          <div class="flex justify-between items-baseline">
+            <h3 class="font-bold text-slate-900">Freelance Web Developer</h3>
+            <span class="text-sm font-semibold text-slate-500"
+              >Started - May 2024</span
+            >
+          </div>
+          <p class="italic text-blue-700 text-sm mb-2">
+            Self-Employed (Remote)
+          </p>
+          <ul
+            class="list-disc list-outside ml-5 text-sm space-y-1 text-slate-700"
+          >
+            <li>
+              <strong>S.N. Pura Laboratory:</strong> Crafted an innovative
+              <strong>NABL-certified laboratory platform</strong> using
+              <strong>Next.js</strong> that enabled over
+              <strong>200 secure report downloads</strong> per month, improved
+              overall user experience and streamlined booking procedures within
+              the customer service framework.
+            </li>
+            <li>
+              <strong>CBS Research Group:</strong> Developed a centralized
+              <strong>Research Management System</strong> for IIEST Shibpur with
+              a custom Admin Panel, enabling
+              <strong>real-time synchronization</strong> of
+              <strong>100+ publications</strong> across frontend and backend
+              interfaces with <strong>100% data integrity</strong>.
+            </li>
+            <li>
+              <strong>Canada Vertex Immigration:</strong> Architected a
+              high-conversion corporate platform for an Alberta-based
+              immigration firm, implementing
+              <strong>advanced SEO strategies</strong> that increased
+              international <strong>organic traffic by 40%</strong> and boosted
+              digital lead generation.
+            </li>
+          </ul>
+        </div>
+      </section>
 
-      <h2
-        class="text-2xl font-bold text-gray-800 border-b-2 border-blue-100 pb-2 mb-4"
-      >
-        Education
-      </h2>
-      <div class="mb-8">
-        <p>
-          <strong>Bachelor of Arts in Economics</strong>, Indira Gandhi National
-          Open University – <em>Expected Jan 2027</em>
-        </p>
-        <p>
-          <strong>High School Graduate</strong>, Garbati High School –
-          <em>2020</em>
-        </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <section>
+          <h2
+            class="text-lg font-bold uppercase tracking-wider text-slate-900 mb-3 border-l-4 border-blue-600 pl-3"
+          >
+            Education & Certifications
+          </h2>
+          <div class="text-sm space-y-4">
+            <div>
+              <p class="font-bold">
+                The Complete 2024 Web Development Bootcamp
+              </p>
+              <p>
+                Udemy |
+                <span class="italic text-slate-500"
+                  >Professional Certificate</span
+                >
+              </p>
+            </div>
+            <div>
+              <p class="font-bold">B.A. in Economics</p>
+              <p>
+                IGNOU |
+                <span class="italic text-slate-500">Expected Jan 2027</span>
+              </p>
+            </div>
+            <div>
+              <p class="font-bold">High School Graduate</p>
+              <p>
+                Garbati High School |
+                <span class="italic text-slate-500">2020</span>
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <h2
+            class="text-lg font-bold uppercase tracking-wider text-slate-900 mb-3 border-l-4 border-blue-600 pl-3"
+          >
+            Interests
+          </h2>
+          <div class="flex flex-wrap gap-2">
+            <span
+              class="bg-slate-100 px-2 py-1 text-xs rounded border border-slate-200"
+              >Spirituality</span
+            >
+            <span
+              class="bg-slate-100 px-2 py-1 text-xs rounded border border-slate-200"
+              >Indian Classical Music</span
+            >
+            <span
+              class="bg-slate-100 px-2 py-1 text-xs rounded border border-slate-200"
+              >Ancient Scriptures</span
+            >
+            <span
+              class="bg-slate-100 px-2 py-1 text-xs rounded border border-slate-200"
+              >Emerging Tech</span
+            >
+          </div>
+        </section>
       </div>
+    </div>
 
-      <h2
-        class="text-2xl font-bold text-gray-800 border-b-2 border-blue-100 pb-2 mb-4"
+    <div class="max-w-4xl mx-auto text-center mb-8 no-print">
+      <button
+        onclick="window.print()"
+        class="bg-blue-600 text-white px-6 py-2 rounded-full hover:bg-blue-700 transition font-bold shadow-md"
       >
-        Interests
-      </h2>
-      <ul class="flex flex-wrap gap-3 text-sm">
-        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
-          Spirituality
-        </li>
-        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
-          Indian Classical Music
-        </li>
-        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
-          Ancient Indian Scriptures
-        </li>
-        <li class="bg-blue-50 border border-blue-200 px-3 py-1 rounded">
-          Technology
-        </li>
-      </ul>
+        Download as PDF / Print
+      </button>
     </div>
   </body>
 </html>
